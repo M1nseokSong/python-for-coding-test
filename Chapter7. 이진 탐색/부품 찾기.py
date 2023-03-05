@@ -12,6 +12,7 @@ def binary_search(array, target, start, end):
     else:
         return binary_search(array, target, mid+1, end)
     
+    
 n = int(input())
 shop_array = list(map(int, input().split()))
 m = int(input())
